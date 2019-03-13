@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+
+    <!-- NAVIGAATIO -->
+    <nav class="navbar-fixed-top" role="navigation">
+                <a class="nav-left" href="index.html">SaraKurtti jtn</a>
+                <a class="nav-right" href="#about-me">About</a>
+                <a class="nav-right" href="#contact-me">Contact</a>
+</nav>
+
+<h1>Portfolio</h1>
+<!--GALLERIA -->
+    <div id="theButtons">
+                <button class="btn active" onclick="filterSelection('all')">Näytä kaikki</button>
+                <button class="btn" onclick="filterSelection('illustration')" >Kuvitukset</button>
+                <button class="btn" onclick="filterSelection('vector')" >Vektori grafiikka</button>
+                <button class="btn" onclick="filterSelection('logo')" >Logot</button>
+    </div>
+    <div class="row">
+            <div class="filter illustration">
+                <div class="container">
+                <div class="content">
+                <a href="Paintings&Drawings.html"> 
+                     <img src="images/bj.jpg" class="img-responsive" width="400" alt="img">
+                        <div class="overlay">
+                        <h3 class="boxtext">Drawings & paintings</h3>
+                        </div>
+                </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="filter vector logo">
+                        <div class="container">
+                                <div class="content">
+                                <a href="pikkuthai.html">
+                                <img src="images/PikkuThai-logo.png" class="img-responsive" width="400" alt="img">
+                                        <div class="overlay">
+                                        <h3 class="boxtext">PikkuThai</h3>
+                                        </div>
+                                </a>
+                                </div>
+                        </div>
+                </div>
+
+        <div class="filter vector logo illustration">
+                        <div class="container">
+                                <div class="content">
+                                        <a href="ensihoitopäivät.html">
+                                <img src="images/sehl-tn.jpg" class="img-responsive" width="400" alt="img">
+                                        <div class="overlay">
+                                        <h3 class="boxtext">Ensihoitopäivät</h3>
+                                        </div>
+                                        </a>
+                                </div>
+                        </div>
+                </div>
+
+        <div class="filter vector logo">
+                <div class="container">
+                <div class="content">
+                        <a href="scandiacus.html">
+                        <img src="images/sc-tn.jpg" class="img-responsive" width="400" alt="img">
+                                <div class="overlay">
+                                <h3 class="boxtext">Scandiacus Oy</h3>
+                                </div>
+                        </a>
+                </div>
+                </div>
+        </div>
+
+        <div class="filter illustration">
+                        <div class="container">
+                        <div class="content">
+                                <a href="systole.html">
+                                <img src="images/systole-tn.jpg" class="img-responsive" width="400" alt="img">
+                                        <div class="overlay">
+                                        <h3 class="boxtext" >Systole-lehti</h3>
+                                        </div>
+                                </a>
+                        </div>
+                        </div>
+                </div>
+
+        <div class="filter illustration">
+                <div class="container">
+                        <div class="content">
+                        <a href="metamorphosis.html">
+                        <img src="images/mm3-tn.jpg" class="img-responsive" width="400" alt="img">
+                                <div class="overlay">
+                                <h3 class="boxtext">The Metamorphosis</h3>
+                                </div>
+                        </a>
+                        </div>
+                </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
