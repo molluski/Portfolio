@@ -1,21 +1,71 @@
-<!DOCTYPE html>
 <html>
 <head>
-        <meta charset="UTF-8"> 
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+                <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
+
 <body>
+        <nav class="navbar-fixed-top" role="navigation">
+                                <a class="nav-left" href="index.html">SaraKurtti jtn</a>
+                                <a class="nav-right" href="#about-me">About</a>
+                                <a class="nav-right" href="#contact-me">Contact</a>
+        </nav>
 
-    <!-- NAVIGAATIO -->
-    <nav class="navbar-fixed-top" role="navigation">
-                <a class="nav-left" href="index.html">SaraKurtti jtn</a>
-                <a class="nav-right" href="#about-me">About</a>
-                <a class="nav-right" href="#contact-me">Contact</a>
-</nav>
 
-<h1>Portfolio</h1>
-<!--GALLERIA -->
-    <div id="theButtons">
+        <img width="auto" src="images/blackjack.jpg" class="responsive image">
+<div class="row">
+                        <div class="dropdown">
+                                <button class="dropbtn" id="info"><b>Blackjack</b></button>
+                                <a id="exit" href="index.html"><b>X</b></a>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <p>Oma kuvitus<br>
+                                        TOTEUTUS: 2015<br>
+                                        TEKNIIKKA: akvarelli
+                                     </p>
+                                </div>
+                        </div>
+                </div>
+                <img width="auto" src="images/fishes.jpg" class="responsive image">
+                <div class="row">
+                                        <div class="dropdown">
+                                                <button class="dropbtn" id="info2"><b>Kalat</b></button>
+                                                <div id="myDropdown2" class="dropdown-content">
+                                                  <p>Oma kuvitus<br>
+                                                        TOTEUTUS: 2017<br>
+                                                        TEKNIIKKA: akvarelli
+                                                     </p>
+                                                </div>
+                                        </div>
+                                </div>
+                                <img width="auto" src="images/girlblue.jpg" class="responsive image">
+<div class="row">
+                        <div class="dropdown">
+                                <button class="dropbtn" id="info3"><b>Sininen tyttö</b></button>
+                                <div id="myDropdown3" class="dropdown-content">
+                                  <p>Oma kuvitus<br>
+                                        TOTEUTUS: 2016<br>
+                                        TEKNIIKKA: akvarelli
+                                     </p>
+                                </div>
+                        </div>
+                </div>
+                <img width="auto" src="images/puu.jpg" class="responsive image">
+<div class="row">
+                        <div class="dropdown">
+                                <button class="dropbtn" id="info4"><b>Puu</b></button>
+                                <div id="myDropdown4" class="dropdown-content">
+                                  <p>Oma kuvitus<br>
+                                        TOTEUTUS: 2013<br>
+                                        TEKNIIKKA: tussi
+                                     </p>
+                                </div>
+                        </div>
+                </div>
+ 
+        <br><hr><br>
+
+ <!--GALLERIA -->
+ <div id="theButtons">
                 <button class="btn active" onclick="filterSelection('all')">Näytä kaikki</button>
                 <button class="btn" onclick="filterSelection('illustration')" >Kuvitukset</button>
                 <button class="btn" onclick="filterSelection('vector')" >Vektori grafiikka</button>

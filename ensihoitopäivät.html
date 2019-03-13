@@ -1,20 +1,38 @@
-<!DOCTYPE html>
 <html>
 <head>
-        <meta charset="UTF-8"> 
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+                <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
+
 <body>
+        <nav class="navbar-fixed-top" role="navigation">
+                                <a class="nav-left" href="index.html">SaraKurtti jtn</a>
+                                <a class="nav-right" href="#about-me">About</a>
+                                <a class="nav-right" href="#contact-me">Contact</a>
+        </nav>
 
-    <!-- NAVIGAATIO -->
-    <nav class="navbar-fixed-top" role="navigation">
-                <a class="nav-left" href="index.html">SaraKurtti jtn</a>
-                <a class="nav-right" href="#about-me">About</a>
-                <a class="nav-right" href="#contact-me">Contact</a>
-</nav>
 
-<h1>Portfolio</h1>
-<!--GALLERIA -->
+        <img width="500" src="images/sehl-juliste.jpg" class="responsive image">
+<div class="row">
+                        <div class="dropdown">
+                                <button class="dropbtn" id="info"><b>Ensihoitopäivät</b></button>
+                                <a id="exit" href="index.html"><b>X</b></a>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <p>ASIAKAS: Suomen Ensihoitoalan liitto ry<br>
+                                        TOTEUTUS: 2016 --><br>
+                                        TEKNIIKKA: vektorigrafiikka<br>
+                                        ROOLI: Ilmeen suunnittelu
+                                     </p>
+                                </div>
+                        </div>
+
+                <img width="500" src="images/sehl-juliste2.jpg" class="responsive image">
+                <img width="700" src="images/sehl-lippu.JPG" class="responsive imageH">
+            </div>
+        <br><hr><br>
+
+        <!--GALLERIA -->
+    <!--GALLERIA -->
     <div id="theButtons">
                 <button class="btn active" onclick="filterSelection('all')">Näytä kaikki</button>
                 <button class="btn" onclick="filterSelection('illustration')" >Kuvitukset</button>

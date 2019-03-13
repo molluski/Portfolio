@@ -1,0 +1,134 @@
+<html>
+<head>
+                <meta charset="UTF-8"> 
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+        <nav class="navbar-fixed-top" role="navigation">
+                                <a class="nav-left" href="index.html">SaraKurtti jtn</a>
+                                <a class="nav-right" href="#about-me">About</a>
+                                <a class="nav-right" href="#contact-me">Contact</a>
+        </nav>
+
+
+        <img width="auto" src="images/systole1.jpg" class="responsive image">
+<div class="row">
+                        <div class="dropdown">
+                                <button class="dropbtn" id="info"><b>Superensihoitaja</b></button>
+                                <a id="exit" href="index.html"><b>X</b></a>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <p>ASIAKAS: Suomen Ensihoidon Tiedotus Oy<br>
+                                        TOTEUTUS: 2017<br>
+                                        TEKNIIKKA: digimaalaus<br>
+                                        ROOLI: kuvittaminen ja taitto
+                                     </p>
+                                </div>
+                        </div>
+                </div>
+                <img width="auto" src="images/systole2.jpg" class="responsive imageH">
+                <div class="row">
+                                        <div class="dropdown">
+                                                <button class="dropbtn" id="info2"><b>Kuvituksia</b></button>
+                                                <div id="myDropdown2" class="dropdown-content">
+                                                        <p>ASIAKAS: Suomen Ensihoidon Tiedotus Oy<br>
+                                                            TOTEUTUS: 2016-2017<br>
+                                                            TEKNIIKKA: akvarelli (vas.) digimaalaus (oik.)<br>
+                                                            ROOLI: kuvittaminen
+                                                         </p>
+                                                </div>
+                                        </div>
+                                </div>
+ 
+        <br><hr><br>
+
+<!--GALLERIA -->
+<div id="theButtons">
+        <button class="btn active" onclick="filterSelection('all')">Näytä kaikki</button>
+        <button class="btn" onclick="filterSelection('illustration')" >Kuvitukset</button>
+        <button class="btn" onclick="filterSelection('vector')" >Vektori grafiikka</button>
+        <button class="btn" onclick="filterSelection('logo')" >Logot</button>
+</div>
+<div class="row">
+    <div class="filter illustration">
+        <div class="container">
+        <div class="content">
+        <a href="Paintings&Drawings.html"> 
+             <img src="images/bj.jpg" class="img-responsive" width="400" alt="img">
+                <div class="overlay">
+                <h3 class="boxtext">Drawings & paintings</h3>
+                </div>
+        </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="filter vector logo">
+                <div class="container">
+                        <div class="content">
+                        <a href="pikkuthai.html">
+                        <img src="images/PikkuThai-logo.png" class="img-responsive" width="400" alt="img">
+                                <div class="overlay">
+                                <h3 class="boxtext">PikkuThai</h3>
+                                </div>
+                        </a>
+                        </div>
+                </div>
+        </div>
+
+<div class="filter vector logo illustration">
+                <div class="container">
+                        <div class="content">
+                                <a href="ensihoitopäivät.html">
+                        <img src="images/sehl-tn.jpg" class="img-responsive" width="400" alt="img">
+                                <div class="overlay">
+                                <h3 class="boxtext">Ensihoitopäivät</h3>
+                                </div>
+                                </a>
+                        </div>
+                </div>
+        </div>
+
+<div class="filter vector logo">
+        <div class="container">
+        <div class="content">
+                <a href="scandiacus.html">
+                <img src="images/sc-tn.jpg" class="img-responsive" width="400" alt="img">
+                        <div class="overlay">
+                        <h3 class="boxtext">Scandiacus Oy</h3>
+                        </div>
+                </a>
+        </div>
+        </div>
+</div>
+
+<div class="filter illustration">
+                <div class="container">
+                <div class="content">
+                        <a href="systole.html">
+                        <img src="images/systole-tn.jpg" class="img-responsive" width="400" alt="img">
+                                <div class="overlay">
+                                <h3 class="boxtext" >Systole-lehti</h3>
+                                </div>
+                        </a>
+                </div>
+                </div>
+        </div>
+
+<div class="filter illustration">
+        <div class="container">
+                <div class="content">
+                <a href="metamorphosis.html">
+                <img src="images/mm3-tn.jpg" class="img-responsive" width="400" alt="img">
+                        <div class="overlay">
+                        <h3 class="boxtext">The Metamorphosis</h3>
+                        </div>
+                </a>
+                </div>
+        </div>
+</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
