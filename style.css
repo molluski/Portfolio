@@ -70,6 +70,11 @@ padding: 5px;
   }
   .imageH{
     display: block;
+    float: center;
+    padding-left: 15%;
+  }
+  .imageV{
+    display: block;
     float: left;
     padding-left: 20%;
   }
